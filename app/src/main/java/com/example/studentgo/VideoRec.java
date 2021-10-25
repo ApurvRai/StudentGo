@@ -12,7 +12,7 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class VideoRec extends AppCompatActivity {
-    Button b1;
+    Button b1, b2;
     VideoView v1;
     MediaController m1;
     Uri uri;
@@ -22,6 +22,7 @@ public class VideoRec extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_rec);
         b1 = (Button)findViewById(R.id.button16);
+        b2 = (Button)findViewById(R.id.button26);
         v1 = (VideoView)findViewById(R.id.videoView3);
         m1 = new MediaController(this);
         b1.setOnClickListener(new View.OnClickListener() {
@@ -29,6 +30,14 @@ public class VideoRec extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
                 startActivityForResult(i, 10);
+            }
+        });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent j = new Intent(VideoRec.this, Homepage.class);
+                startActivity(j);
+                finish();
             }
         });
 

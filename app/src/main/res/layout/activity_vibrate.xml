@@ -35,4 +35,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/vibrate"
         tools:layout_editor_absoluteY="315dp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="117dp"
+        android:text="home" />
 </RelativeLayout>
