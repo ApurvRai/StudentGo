@@ -42,7 +42,7 @@ public class Camera extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent j = new Intent(Camera.this, MainActivity.class);
+                Intent j = new Intent(Camera.this, Homepage.class);
                 startActivity(j);
                 finish();
             }

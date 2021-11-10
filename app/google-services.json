@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "296847969974",
+    "project_id": "studentgo-28dc7",
+    "storage_bucket": "studentgo-28dc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296847969974:android:4afce2c0462e386d9f2017",
+        "android_client_info": {
+          "package_name": "com.example.studentgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296847969974-1cicghflqtcmt33fs3d2i6p8ljvahg8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentgo",
+            "certificate_hash": "c21aaec656cc7a5b651af44f91223acd5b1d0590"
+          }
+        },
+        {
+          "client_id": "296847969974-0cdu1qlordomo8q8agfs3eg4css157js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDDm26Ebau1hbgeuRxlOnM14WAu823Nr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296847969974-0cdu1qlordomo8q8agfs3eg4css157js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

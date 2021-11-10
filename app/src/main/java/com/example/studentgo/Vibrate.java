@@ -29,7 +29,7 @@ public class Vibrate extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent j = new Intent(Vibrate.this, MainActivity.class);
+                Intent j = new Intent(Vibrate.this, Homepage.class);
                 startActivity(j);
                 finish();
             }

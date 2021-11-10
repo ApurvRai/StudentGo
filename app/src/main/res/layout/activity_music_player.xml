@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MusicPlayer">
+    tools:context=".MusicPlayer"
+    android:background="@drawable/musicbg">
 
     <Button
         android:id="@+id/button19"
@@ -12,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="158dp"
-        android:layout_marginBottom="398dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="358dp"
         android:text="Play"
         tools:layout_editor_absoluteX="196dp"
         tools:layout_editor_absoluteY="289dp" />
@@ -24,8 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="273dp"
         android:text="Pause" />
 
     <Button
@@ -34,7 +35,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="155dp"
-        android:layout_marginBottom="215dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="184dp"
         android:text="home" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="470dp"
+        app:srcCompat="@drawable/musicimg" />
+
 </RelativeLayout>

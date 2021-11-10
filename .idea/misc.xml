@@ -10,15 +10,19 @@
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_calculator.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_camera.xml" value="0.264" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_flash.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_google_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_homepage.xml" value="0.264" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_music_player.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_otp2.xml" value="0.2359375" />
+        <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_otp_login.xml" value="0.2" />
+        <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_signup.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_vibrate.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_video.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_video_player.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_video_rec.xml" value="0.23958333333333334" />
-        <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_wifi.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/raiia/AndroidStudioProjects/StudentGo/app/src/main/res/layout/activity_wifi.xml" value="0.264" />
       </map>
     </option>
   </component>

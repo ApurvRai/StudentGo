@@ -7,6 +7,7 @@
     tools:context=".Signup"
     android:background="@drawable/signup">
 
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -21,6 +22,14 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="104dp" />
 
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="353dp" />
 
     <Button
         android:id="@+id/button3"
@@ -29,30 +38,21 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="219dp"
-        android:text="Button"
+        android:text="Otp login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="308dp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        android:layout_width="114dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="381dp"
-        android:text="Button"
+        android:layout_marginTop="415dp"
+        android:text="Sign Up"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="410dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="284dp"
-        android:text="google" />
 
     <Button
         android:id="@+id/button5"
@@ -61,5 +61,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="97dp"
-        android:text="home" />
+        android:text="Login" />
 </RelativeLayout>
